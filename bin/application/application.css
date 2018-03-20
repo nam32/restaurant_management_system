@@ -1,0 +1,42 @@
+/**
+ * This is a css file used to skin scene 1 and scene 2. Modified from 
+ * http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm
+ * tutorial.
+ */ 
+ 
+ root { 
+    display: block;
+}
+.root {
+	-fx-background-image: url("background.jpg");
+	-fx-font-size: 10pt;
+    -fx-font-family: "Arial";
+    -fx-fill: Silver;
+}
+.label {
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: Silver;
+}
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+}
+#system-login {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial";
+   -fx-fill: Silver;
+}
+#logoutButton{
+   -fx-font-family: "Arial";
+   -fx-background-color: FIREBRICK; 
+}
+.button {
+    -fx-text-fill: White;
+    -fx-background-color: Grey;
+    -fx-border-color: DarkSlateGray;
+    -fx-border-radius: 6;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(Gray, DimGray);
+}
